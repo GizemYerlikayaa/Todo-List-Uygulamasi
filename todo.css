@@ -1,0 +1,64 @@
+body {
+  background-image: url("img/bg4.jpg"); /* img klasöründeki resmi kullan */
+  background-size: cover; /* Resmin tüm sayfayı kaplamasını sağlar */
+  background-position: center; /* Resmi ortalar */
+  background-repeat: no-repeat; /* Resmin tekrar etmemesini sağlar */
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  display: flex;
+  justify-content: center; /* Yatayda ortalar */
+  align-items: center; /* Dikeyde ortalar */
+  height: 100vh; /* Sayfa yüksekliğini ekran boyutuna göre ayarlar */
+  font-size: large;
+}
+.list-group {
+  max-height: 300px; /* Maksimum yükseklik */
+  overflow-y: auto; /* Yalnızca dikey kaydırma ekler */
+  padding-right: 10px; /* Scroll bar ile içerik arasında boşluk bırakmak için */
+}
+.card-title {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  font-size: x-large;
+}
+#todoAddButton {
+  display: block;
+  margin: 5px auto;
+  padding: 6px 20px; /* Butonun iç boşluğu */
+  font-size: 19px;
+  width: fit-content; /* Sadece içeriği kadar genişlik */
+  background-color: rgba(18, 53, 209, 0.767);
+  border-radius: 25px;
+}
+#clearButton {
+  display: block;
+  margin: 5px auto;
+  padding: 6px 20px; /* Butonun iç boşluğu */
+  font-size: 19px;
+  width: fit-content; /* Sadece içeriği kadar genişlik */
+  background-color: rgba(18, 53, 209, 0.767);
+  border-radius: 25px;
+}
+.card-header {
+  background-color: rgba(12, 214, 197, 0.356);
+  border-radius: 2px;
+}
+.list-group-item:nth-child(odd) {
+  background-color: #b5c01423; /* Açık gri örnek renk */
+}
+#todoName {
+  font-size: 18px;
+  padding: 10px;
+  height: 45px;
+  border-radius: 15px;
+}
+#todoSearch {
+  font-size: 18px;
+  padding: 10px;
+  height: 45px;
+  border-radius: 15px;
+}
+.list-group {
+  border-radius: 7px;
+}
