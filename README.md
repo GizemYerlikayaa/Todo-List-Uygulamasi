@@ -1,6 +1,6 @@
 Todo List Uygulaması
 
-- Bu proje, JavaScript kullanılarak geliştirilmiş bir Todo List (Yapılacaklar Listesi) uygulamasıdır. Kullanıcılar todo ekleyebilir, silebilir, arayabilir ve tüm todoları temizleyebilir. Ayrıca eklenen veriler localStorage üzerinde saklanır.
+- JavaScript kullanılarak geliştirilmiş bir Todo List (Yapılacaklar Listesi) uygulamasıdır. Kullanıcılar todo ekleyebilir, silebilir, arayabilir ve tüm todoları temizleyebilir. Ayrıca eklenen veriler localStorage üzerinde saklanır.
 
 Özellikler:
 
